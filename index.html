@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+    <head>
+        <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <meta name="author" content="Jashanpreet kaur">
+            <meta name="description" content="webpage">
+            <meta name="keywords" content="html, css, web, web development, javascript">
+            <title>Movie Plaza</title>
+            <link rel="stylesheet" href="./assets/style/index.css" media="all">
+            <script src="./assets/script/index.js" type="module"></script>
+    </head>
+    <body>
+        <main>
+          <h1>Movie Plaza</h1>
+          <form autocomplete="off">
+            <div class="search-bar">
+              <input type="text" placeholder="search" class="input" id="input">
+              <input type="button" class="button" id="button" value="Search" onclick="handleInput()">
+            </div>
+            <div class="result-list"></div>
+          </form>
+          <div class="movie-show">
+            <div class="img">
+              <img id="image">
+            </div>
+            <div class="content">
+              <h1 id="movie-title"></h1>
+              <p id="movie-description"></p>
+              <p><span></span></p>
+            </div>
+          </div>
+        </main>
+    </body>
+</html>
