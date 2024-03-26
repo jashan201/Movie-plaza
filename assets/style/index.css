@@ -2,13 +2,12 @@
 
 body {
     display: grid;
-    justify-content: center;
     align-items: center;
     height: 100vh;
     background: linear-gradient(150deg, #9f8170, #006a4e);
 }
 
-main {
+.container {
     display: grid;
     place-items: center;
 }
@@ -92,4 +91,11 @@ img {
 
 .content {
     width: 400px;
+}
+
+@media (max-width: 480px) {
+
+    body {
+        height: 210vh;
+    }
 }
