@@ -41,7 +41,7 @@ form {
     border-color: red;
 }
 
-.button {
+.create-button {
     width: 24%;
     height: 43px;
     border: 1px solid #000;
@@ -53,18 +53,18 @@ form {
     font-weight: 550;
 }
 
-.button:hover {
+.create-button:hover {
     background-color: #9f8170;
 }
 
-.result-list ul {
+.list ul {
     list-style: none;
     background-color: rgba(250, 250, 234, 0.658);
     padding: 0;
     width: 275px;
 }
 
-.result-list li {
+.list li {
     padding: 10px;
     background-color: #fcf9f9c2;
     border-radius: 2px;
@@ -72,7 +72,7 @@ form {
     cursor: pointer;
 }
 
-.result-list li:hover {
+.list li:hover {
     background-color: #9f8170;
 }
 

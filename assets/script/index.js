@@ -2,11 +2,11 @@ import movies from './movies.js';
 
 
 const input = document.getElementById('input');
-const resultList = document.querySelector('.result-list');
-const button = document.getElementById('button');
+const resultList = document.querySelector('.list');
+const Createbutton = document.getElementById('create-button');
 const movieContent = document.querySelector('.content');
-const movieTitle = document.querySelector('#movie-title');
-const movieDescription = document.querySelector('#movie-description');
+const movieTitle = document.querySelector('#title');
+const movieDescription = document.querySelector('#description');
 const poster = document.querySelector('#image');
 
 
