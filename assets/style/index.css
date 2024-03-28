@@ -4,31 +4,40 @@ body {
     display: grid;
     align-items: center;
     height: 100vh;
-    background: linear-gradient(150deg, #9f8170, #006a4e);
+    /* background: linear-gradient(150deg, #9f8170, #006a4e); */
+    background: radial-gradient(circle, rgb(169, 82, 67), rgb(75, 75, 207));
 }
 
 .container {
     display: grid;
     place-items: center;
+    justify-content: center;
 }
 
 h1 {
     font-size: 45px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .search-bar {
     display: flex;
+    width: 400px;
+    justify-content: space-between;
 }
 
 form {
     position: relative;
     width: 25rem;
     height: 3rem;
+    display: grid;
+    justify-content: center;
 }
 
 
 .input {
-    width: 70%;
+    width: 75%;
     height: 40px;
     border: 1px solid #000;
     border-radius: 8px;
@@ -42,10 +51,9 @@ form {
 
 .create-button {
     width: 24%;
-    height: 43px;
+    height: 40px;
     border: 1px solid #000;
     border-radius: 8px;
-    position: absolute;
     right: 0px;
     top: 0px;
     font-size: 20px;
@@ -53,12 +61,15 @@ form {
 }
 
 .create-button:hover {
-    background-color: #9f8170;
+    background-color: rgba(86, 86, 208, 0.807);
+}
+
+.list {
+    margin-top: 10px;
 }
 
 .list ul {
     list-style: none;
-    background-color: rgba(250, 250, 234, 0.658);
     padding: 0;
     width: 275px;
 }
@@ -69,10 +80,14 @@ form {
     border-radius: 2px;
     border: 1px solid #000;
     cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+    width: 300px;
 }
 
 .list li:hover {
-    background-color: #9f8170;
+    color: #fff;
+    background-color: rgba(75, 75, 207, 0.841);
 }
 
 .movie-show {
@@ -81,8 +96,8 @@ form {
     justify-content: center;
     align-items: center;
     margin-top: 10%;
-    width: 650px;
-    justify-content: space-between;
+    width: 700px;
+    justify-content: space-evenly;
 }
 
 img {
